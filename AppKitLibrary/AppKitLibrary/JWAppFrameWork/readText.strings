@@ -1,0 +1,21 @@
+/* 
+  readText.strings
+  AppKitLibrary
+
+  Created by jinwei on 15/10/24.
+  Copyright © 2015年 jinwei group. All rights reserved.、
+  使用须知
+*/
+
+
+/**
+ 
+ 
+ 1.info.plist 添加 App Transport Security Settings （dictionary）->   Allow Arbitrary Loads(bool) 设置为yes
+ 
+ 2. 选中项目 - Project - Build Settings - ENABLE_STRICT_OBJC_MSGSEND 将其设置为 NO 即可
+ 
+ 3.添加标记  -fno-objc-arc ( SFHFKeychainUtils.m  ,JSONKit.m)
+ 
+ 
+ /
